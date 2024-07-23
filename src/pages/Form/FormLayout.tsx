@@ -87,7 +87,7 @@ const FormLayout = () => {
           <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
             <div className="border-b border-stroke py-4 px-6.5 dark:border-strokedark">
               <h3 className="font-medium text-black dark:text-white">
-                Sign Up Form
+                 Survey Form
               </h3>
             </div>
             <form action="#">
@@ -116,28 +116,28 @@ const FormLayout = () => {
 
                 <div className="mb-4.5">
                   <label className="mb-2.5 block text-black dark:text-white">
-                    Password
+                    Age
                   </label>
                   <input
-                    type="password"
-                    placeholder="Enter password"
+                    type="number"
+                    placeholder="Enter Age"
                     className="w-full rounded border-[1.5px] border-stroke bg-transparent py-3 px-5 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
                   />
                 </div>
 
-                <div className="mb-5.5">
+                <div className="mb-6">
                   <label className="mb-2.5 block text-black dark:text-white">
-                    Re-type Password
+                    Message
                   </label>
-                  <input
-                    type="password"
-                    placeholder="Re-enter password"
+                  <textarea
+                    rows={6}
+                    placeholder="Type your message"
                     className="w-full rounded border-[1.5px] border-stroke bg-transparent py-3 px-5 text-black outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:text-white dark:focus:border-primary"
-                  />
+                  ></textarea>
                 </div>
 
                 <button className="flex w-full justify-center rounded bg-primary p-3 font-medium text-gray hover:bg-opacity-90">
-                  Sign Up
+                  Send Message
                 </button>
               </div>
             </form>

@@ -64,7 +64,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
       {/* <!-- SIDEBAR HEADER --> */}
       <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
         <NavLink to="/">
-          <img src="https://www.google.com/imgres?q=task&imgurl=http%3A%2F%2Fwww.taskeuproject.com%2Fwp-content%2Fuploads%2F2017%2F12%2FTASKlogodeftrasp.png&imgrefurl=http%3A%2F%2Fwww.taskeuproject.com%2Fabout-2%2F&docid=F8N6p7RzjglWHM&tbnid=fH3Qtd-QTWk_MM&vet=12ahUKEwi247nIuL2HAxU0yzgGHUDjJI8QM3oECC4QAA..i&w=1574&h=622&hcb=2&ved=2ahUKEwi247nIuL2HAxU0yzgGHUDjJI8QM3oECC4QAA" alt="Logo" />
+          <img src="https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.taskeuproject.com%2Fabout-2%2F&psig=AOvVaw1-I40DfsknqhILLUv5fWIG&ust=1721837452174000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwiziO2-xr2HAxUAT2wGHb-0BTQQjRx6BAgAEBU" alt="Logo" />
         </NavLink>
 
         <button
